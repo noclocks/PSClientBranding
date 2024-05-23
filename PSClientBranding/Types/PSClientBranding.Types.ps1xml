@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Types>
+    <Type>
+        <Name>System.Management.Automation.PSCustomObject</Name>
+        <Members>
+            <PropertySet>
+                <Name>Brand</Name>
+                <ReferencedProperties>
+                    <Name>colors</Name>
+                    <Name>company</Name>
+                    <Name>description</Name>
+                    <Name>domain</Name>
+                    <Name>fonts</Name>
+                    <Name>images</Name>
+                    <Name>industries</Name>
+                    <Name>links</Name>
+                    <Name>location</Name>
+                    <Name>logos</Name>
+                    <Name>longDescription</Name>
+                    <Name>name</Name>
+                </ReferencedProperties>
+            </PropertySet>
+        </Members>
+    </Type>
+    <Type>
+        <Name></Name>
+        <Members>
+            <ScriptProperty>
+                <Name>Age</Name>
+                <GetScriptBlock>
+                    ((Get-Date) - ($this.CreationTime)).Days
+                </GetScriptBlock>
+            </ScriptProperty>
+        </Members>
+    </Type>
+</Types>
