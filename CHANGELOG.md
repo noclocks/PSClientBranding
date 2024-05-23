@@ -12,6 +12,7 @@
 
 ## Features
 
+- Initialize placeholders for planned public functions ([dd79235](https://github.com/noclocks/PSClientBranding/commit/dd792352f9efcb473e322099617df25fc023a664))  - (Jimmy Briggs)
 - Add github action workflows ([70010d5](https://github.com/noclocks/PSClientBranding/commit/70010d5a0b0917e8d0b23a35941c1f93232ee8ff))  - (Jimmy Briggs)
 - Add public function Get-ClientBrand ([26f41f7](https://github.com/noclocks/PSClientBranding/commit/26f41f7fc194ea37eb8e06d893888300528ee203))  - (Jimmy Briggs)
 - Add public function Search-ClientBrand ([bbad640](https://github.com/noclocks/PSClientBranding/commit/bbad640b86e8e7cd768554db08efc2dc47b4a04e))  - (Jimmy Briggs)
